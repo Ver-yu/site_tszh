@@ -1,0 +1,72 @@
+[
+  {
+    "model": "users.customuser",
+    "pk": 1,
+    "fields": {
+      "username": "glava",
+      "password": "pbkdf2_sha256$260000$saltsaltsalt$Txe4zECKRpAkZG+EOtkvbRH7TK7pR8CErM6r72dGMV0=",
+      "role": 1,
+      "first_name": "Иван",
+      "last_name": "Глава",
+      "phone": "89000000001"
+    }
+  },
+  {
+    "model": "users.customuser",
+    "pk": 2,
+    "fields": {
+      "username": "tszh1",
+      "password": "pbkdf2_sha256$260000$saltsaltsalt$Txe4zECKRpAkZG+EOtkvbRH7TK7pR8CErM6r72dGMV0=",
+      "role": 2,
+      "first_name": "Петр",
+      "last_name": "Член",
+      "phone": "89000000002",
+      "entrance": "1",
+      "floor": "2",
+      "apartment": "12"
+    }
+  },
+  {
+    "model": "users.customuser",
+    "pk": 3,
+    "fields": {
+      "username": "zhilets1",
+      "password": "pbkdf2_sha256$260000$saltsaltsalt$Txe4zECKRpAkZG+EOtkvbRH7TK7pR8CErM6r72dGMV0=",
+      "role": 3,
+      "first_name": "Анна",
+      "last_name": "Жиличка",
+      "phone": "89000000003",
+      "entrance": "1",
+      "floor": "3",
+      "apartment": "10"
+    }
+  },
+  {
+    "model": "users.customuser",
+    "pk": 4,
+    "fields": {
+      "username": "zhilets2",
+      "password": "pbkdf2_sha256$260000$saltsaltsalt$Txe4zECKRpAkZG+EOtkvbRH7TK7pR8CErM6r72dGMV0=",
+      "role": 3,
+      "first_name": "Олег",
+      "last_name": "Жилич",
+      "phone": "89000000004",
+      "entrance": "1",
+      "floor": "3",
+      "apartment": "10"
+    }
+  },
+  {
+    "model": "users.customuser",
+    "pk": 5,
+    "fields": {
+      "username": "santehnik",
+      "password": "pbkdf2_sha256$260000$saltsaltsalt$Txe4zECKRpAkZG+EOtkvbRH7TK7pR8CErM6r72dGMV0=",
+      "role": 4,
+      "first_name": "Сергей",
+      "last_name": "Трубыч",
+      "phone": "89000000005",
+      "profession": "Сантехник"
+    }
+  }
+]
