@@ -39,9 +39,12 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'forum',  # Добавили это для форума!
+    'forum',  # это для форума
+    'profanity_check', # это для форума
     'tickets',
 ]
+
+
 # Для заявок
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
