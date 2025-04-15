@@ -6,7 +6,7 @@ class Post(models.Model):
     author = models.ForeignKey(CustomUser, on_delete=models.CASCADE, related_name='posts')
     title = models.CharField(max_length=200)
     content = models.TextField()
-    created_at = models.DateTimeField(default=timezone.now)  # Правильное имя поля
+    created_at = models.DateTimeField(default=timezone.now)
     updated_at = models.DateTimeField(auto_now=True)
     image = models.ImageField(upload_to='forum_images/', blank=True, null=True)
     has_poll = models.BooleanField(default=False)
