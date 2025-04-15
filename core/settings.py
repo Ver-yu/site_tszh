@@ -39,8 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'forum',  # это для форума
-    'profanity_check', # это для форума
+    'forum',  # для форума
     'tickets',
 ]
 
